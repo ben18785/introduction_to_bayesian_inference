@@ -7,3 +7,7 @@ This course provides a short introduction to Bayesian inference. By the end of t
 - Know the elements required to do Bayesian inference and appreciate how they affect inferences.
 - Know why exact Bayesian inference is *hard*.
 - See how conjugate priors provide a slight remedy.
+
+The course consists of a [lecture](./presentations/introduction_to_bayesian_inference.pdf) and problem sets:
+
+- [*Disease prevalence exercise*](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/problem_disease_prevalence.nb.html). This example mirrors the material in the lectures and invites participants to estimate the prevalence of a disease. It goes through maximum likelihood estimation and Bayesian inference. The answers (written in R) to this problem set are [here](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/answers/answer_disease_prevalence.nb.html).
