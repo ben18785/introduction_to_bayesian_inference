@@ -12,3 +12,8 @@ The course consists of a [lecture](./presentations/introduction_to_bayesian_infe
 
 - [*Disease prevalence exercise*](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/problem_disease_prevalence.nb.html). This example mirrors the material in the lectures and invites participants to estimate the prevalence of a disease. It goes through maximum likelihood estimation and Bayesian inference. The answers (written in R) to this problem set are [here](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/answers/answer_disease_prevalence.nb.html).
 - [*Epileptic seizure exercise*](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/problem_epilepsy.nb.html). This example uses [real data](./problem_sets/data/conjugate_epil.csv) from a study of epilepsy (see this [paper](https://pubmed.ncbi.nlm.nih.gov/2242408/) for more information). The answers to the problem set are [here](https://htmlpreview.github.io/?https://github.com/ben18785/introduction_to_bayesian_inference/blob/main/problem_sets/answers/answer_epilepsy.nb.html).
+
+## Things to consider next year
+- Need an up and running set of Python answers as well as R (I've started this but need to finish)
+- Students don't understand probability distributions; probably worth including something about these in here
+- May want to include the breast cancer example as an intro to Bayes' rule
