@@ -52,7 +52,7 @@ qplot(x_values, density_values) +
 ```
 
 ## Maximum likelihood estimation
-5. Plot the likelihood function
+5. Plot the likelihood function.
 ```{r}
 X <- 4
 N <- 10
@@ -82,7 +82,7 @@ $\frac{d\log L}{d\theta} \propto \frac{X}{\theta} - \frac{N - X}{1-\theta} = 0$
 
 Rearranging, we get: $\theta = \frac{X}{N} = \frac{4}{10}$, i.e. the proportion of disease-positive examples in our data.
 
-Numerical.
+The numerical way is as below.
 ```{r}
 # optim works by minimising, so take -1 * likelihood
 res <- optim(0.5, function(theta) -dbinom(X, N, theta))
